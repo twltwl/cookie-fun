@@ -40,11 +40,11 @@ const updateScore = () => {
 };
 
 const init = () => {
-  const cookieInterval = setInterval(() => {
+  setInterval(() => {
     spawnCookie();
   }, 1000);
 
-  const checkIntersections = setInterval(() => {
+  setInterval(() => {
     const cookies = document.querySelectorAll<HTMLElement>(".cookie");
 
     cookies.forEach((cookie) => {
