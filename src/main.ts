@@ -1,4 +1,5 @@
 import "./style.css";
+import cookieUrl from "./cookie.png";
 
 const gameWidth = 800;
 const gameHeight = 600;
@@ -17,7 +18,7 @@ const spawnCookie = () => {
     return;
   }
   const cEl = document.createElement("img");
-  cEl.src = "/cookie.png";
+  cEl.src = cookieUrl;
   cEl.classList.add("cookie");
 
   cEl.addEventListener("click", () => {
