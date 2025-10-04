@@ -32,8 +32,9 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 25px;
   line-height: 1.1;
+  margin-right: auto;
 }
 
 @media (prefers-color-scheme: light) {
@@ -66,6 +67,13 @@ h1 {
   inset: 0;
   background: rgba(0, 255, 0, 0);
   animation: nuclearTint 2s forwards;
+}
+
+#cookie-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 .cookie {
@@ -102,8 +110,8 @@ button {
   background: linear-gradient(135deg, #ff7f50, #ff4500);
   border: 2px solid #ff6347;
   border-radius: 50%;
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
   font-size: 14px;
   font-weight: bold;
   color: white;
